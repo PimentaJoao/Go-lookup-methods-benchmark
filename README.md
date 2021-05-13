@@ -27,7 +27,7 @@ Now, for the *bestcase workload* results, we were presented with:
 | `Map` | 12.64 |
 | `Slice` | 7.44 |
 
-Atleast, considering the *worstcase workload* results:
+At last, considering the *worstcase workload* results:
 
 | Validation Method | Throughput (ns/op) |
 |---|:-:|
