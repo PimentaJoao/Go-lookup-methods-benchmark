@@ -1,5 +1,26 @@
 package main
 
+var dayMap map[int]string = map[int]string{
+	1: "Sunday",
+	2: "Monday",
+	3: "Tuesday",
+	4: "Wednesday",
+	5: "Thursday",
+	6: "Friday",
+	7: "Saturday",
+}
+
+var daySlice []string = []string{
+	"",
+	"Sunday",
+	"Monday",
+	"Tuesday",
+	"Wednesday",
+	"Thursday",
+	"Friday",
+	"Saturday",
+}
+
 func daySelectorIf(day int) string {
 	if day == 1 {
 		return "Sunday"
@@ -41,20 +62,12 @@ func daySelectorSwitch(day int) string {
 	}
 }
 
-var dayMap map[int]string = map[int]string{
-	1: "Sunday",
-	2: "Monday",
-	3: "Tuesday",
-	4: "Wednesday",
-	5: "Thursday",
-	6: "Friday",
-	7: "Saturday",
-}
-
 func daySelectorMap(day int) string {
 	return dayMap[day]
 }
 
-func main() {
-
+func daySelectorSlice(day int) string {
+	return daySlice[day]
 }
+
+func main() {}
