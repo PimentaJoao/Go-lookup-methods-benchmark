@@ -39,3 +39,5 @@ At last, considering the *worstcase workload* results:
 ### Why?
 
 This was done as a practical learning exercise to understand more about both the built-in benchmarking tool and about the different speeds of different lookup methods. Take my results with a grain of salt as this is just a learning focused project, not a scientific one.
+
+This project was inspired by RaiTamarindo's [Atoi x Regex for integer validation](https://github.com/RaiTamarindo/atoi-x-regex-benchmark).
