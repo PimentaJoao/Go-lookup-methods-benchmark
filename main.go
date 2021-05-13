@@ -1,6 +1,6 @@
 package main
 
-func validateIf(day uint8) string {
+func daySelectorIf(day int) string {
 	if day == 1 {
 		return "Sunday"
 	} else if day == 2 {
@@ -20,7 +20,7 @@ func validateIf(day uint8) string {
 	}
 }
 
-func validateSwitch(day uint8) string {
+func daySelectorSwitch(day int) string {
 	switch day {
 	case 1:
 		return "Sunday"
@@ -41,4 +41,6 @@ func validateSwitch(day uint8) string {
 	}
 }
 
-func main() {}
+func main() {
+
+}
