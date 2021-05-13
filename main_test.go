@@ -2,7 +2,15 @@ package main
 
 import "testing"
 
-var workloads []int = []int{1}
+// balanced workload
+var workloads []int = []int{1, 2, 3, 4, 5, 6, 7}
+
+// bestcase workload
+// var workloads []int = []int{1}
+
+// worstcase workload
+// var workloads []int = []int{7}
+
 var worksize int = len(workloads)
 
 func BenchmarkIf(b *testing.B) {
