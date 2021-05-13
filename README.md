@@ -11,7 +11,7 @@ There are three different types of workloads. The balanced workload offers the s
 
 For the *balanced workload*, we get the following results:
 
-| Validation Method | Throughput (ns/op) |
+| Lookup Method | Throughput (ns/op) |
 |---|:-:|
 | `If` | 7.49 |
 | `Switch/case` | 7.38 |
@@ -20,7 +20,7 @@ For the *balanced workload*, we get the following results:
 
 Now, for the *bestcase workload* results, we were presented with:
 
-| Validation Method | Throughput (ns/op) |
+| Lookup Method | Throughput (ns/op) |
 |---|:-:|
 | `If` | 7.47 |
 | `Switch/case` | 7.49 |
@@ -29,7 +29,7 @@ Now, for the *bestcase workload* results, we were presented with:
 
 At last, considering the *worstcase workload* results:
 
-| Validation Method | Throughput (ns/op) |
+| Lookup Method | Throughput (ns/op) |
 |---|:-:|
 | `If` | 7.45 |
 | `Switch/case` | 7.77 |
