@@ -41,6 +41,20 @@ func daySelectorSwitch(day int) string {
 	}
 }
 
+var dayMap map[int]string = map[int]string{
+	1: "Sunday",
+	2: "Monday",
+	3: "Tuesday",
+	4: "Wednesday",
+	5: "Thursday",
+	6: "Friday",
+	7: "Saturday",
+}
+
+func daySelectorMap(day int) string {
+	return dayMap[day]
+}
+
 func main() {
 
 }
