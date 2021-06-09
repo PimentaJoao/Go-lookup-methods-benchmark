@@ -1,4 +1,4 @@
-# Go selection (lookup) methods benchmark
+# Go lookup methods benchmark
 Benchmarking various ways of translating an integer into a day of the week.
 
 ### How?
